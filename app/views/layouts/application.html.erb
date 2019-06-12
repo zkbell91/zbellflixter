@@ -20,10 +20,10 @@
         
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <%= link_to 'Home', root_path, class: 'nav-item nav-link' %>
+            <li class="nav-item">
+              <%= link_to 'Courses', courses_path, class: 'nav-link' %>
+            </li>
             
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
 
               <% if user_signed_in? %>
                 <li class= "nav-item">
