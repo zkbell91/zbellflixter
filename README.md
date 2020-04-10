@@ -1,24 +1,21 @@
-# README
+![Screenshot](docs/images/screenshot.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Flixter
 
-Things you may want to cover:
+A video-streaming marketplace for educators to facilitate lessons, featuring payment capabilities(stripe), user role management, complex user interfaces, and advanced database relationships.
 
-* Ruby version
+## Built With
 
-* System dependencies
+* Ruby on Rails 5.2.3
+* Ruby 2.5.3
+* AWS S3 Storage
 
-* Configuration
+## Gems
 
-* Database creation
+* [Stripe](https://github.com/stripe/stripe-ruby) - Credit Card Payment Handler
+* [Devise](https://github.com/heartcombo/devise) - User management and authentication
+* [Carrierwave](https://github.com/carrierwaveuploader/carrierwave) and [MiniMagick](https://github.com/minimagick/minimagick) - Media uploading 
 
-* Database initialization
+## Acknowledgments
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [The Firehose Project](https://thefirehoseproject.com)
